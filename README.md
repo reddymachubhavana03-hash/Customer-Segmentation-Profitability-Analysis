@@ -1,4 +1,5 @@
-# Customer Segmentation Analysis (Excel)
+# Customer Revenue–Profit Segmentation Analysis
+
 
 ## Project Overview
 This project analyzes customer performance by segmenting customers based on Revenue and Profit thresholds. The goal is to identify high-value customers, loss-making segments, and optimization opportunities.
