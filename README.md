@@ -32,15 +32,16 @@ All calculations are performed at the **row level** before aggregation.
 
 ---
 
-## Key Metrics Calculated
+## Key Metrics & Threshold Logic
+
 - **Customer Profit** = Revenue − Cost  
 - **Profit Margin** = Customer Profit / Revenue  
-- **Revenue Threshold** (used for segmentation)
-- **Profit Threshold** (used for segmentation)
 
-⚠️ No metrics are calculated inside pivot tables to maintain transparency.
+To ensure objective segmentation:
+- Revenue and Profit thresholds are derived using **median values**, not arbitrary cutoffs.
+- Median-based thresholds reduce the impact of outliers and reflect real-world customer distribution.
 
----
+This ensures segmentation decisions are data-driven, not assumption-driven.
 
 ## Customer Segmentation Logic
 Customers are classified into four segments using revenue and profit thresholds:
@@ -66,6 +67,14 @@ Segmentation is implemented using Excel formulas, not manual tagging.
 This mirrors how analysis is done in real business environments.
 
 ---
+## Why This Approach Was Chosen
+
+- Row-level calculations preserve transparency and auditability
+- Pivot tables are used only for aggregation, not logic
+- Revenue alone was intentionally avoided as a success metric
+- Profit margin was prioritized to reflect sustainable growth
+
+This approach mirrors how profitability analysis is performed in real business environments.
 
 ## Dashboard Design
 The dashboard answers one critical question:
@@ -126,6 +135,15 @@ The design intentionally avoids over-decoration to keep insights clear.
 - Power BI interactive dashboard version
 
 ---
+## Interview Readiness
+
+This project demonstrates:
+- Structured analytical thinking
+- Business-first decision making
+- Strong Excel fundamentals
+- Ability to translate data into actions
+
+The same logic can be replicated using SQL, Python, or BI tools.
 
 ## About the Author
 This project was created by **Bhavana Reddymachu** to demonstrate practical data analysis skills, business thinking, and interview-ready reporting using Excel.
