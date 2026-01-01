@@ -128,4 +128,4 @@ The design intentionally avoids over-decoration to keep insights clear.
 ---
 
 ## About the Author
-This project was created by **Bhavana Reddy** to demonstrate practical data analysis skills, business thinking, and interview-ready reporting using Excel.
+This project was created by **Bhavana Reddymachu** to demonstrate practical data analysis skills, business thinking, and interview-ready reporting using Excel.
